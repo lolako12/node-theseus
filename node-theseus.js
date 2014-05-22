@@ -30,7 +30,7 @@ var Module    = require('module');
 var WebSocketServer = require('ws').Server;
 var sms       = require('source-map-support');
 
-var server, noisy = 0;
+var server, noisy = 1;
 
 var maps = {}; // path -> map
 
